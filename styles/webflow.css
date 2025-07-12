@@ -73,3 +73,38 @@
 .users{
     align-items: center;
 }
+.get-started-title{
+    font-size: 50px;
+    color: black;
+}
+.get-started-subtitle{
+    color: #B3B3B3;
+}
+.started{
+    margin: 150px;
+}
+.title-style{
+    font-size: 95px;
+    font-weight: 600;
+}
+.form{
+    display: block;
+    
+}
+.connection-message-part{
+    display: flex;
+    justify-content: space-between;
+}
+.message{
+    margin-left: 150px;
+}
+.footer-title{
+    font-size: 100px;
+    margin-bottom: 0px;
+
+}
+.footer-sub-title{
+    margin-top: 10px;
+    color: #8987A1;
+    font-size: 30px;
+}
