@@ -5,106 +5,167 @@
   font-variation-settings:
     "wdth" 100;
 }
-
 .primary-color{
     color: #4E47FF;
 }
-
+.main-bg{
+    background-color: #8987A1;
+}
+.header-bg{
+    background-image: url('../Assets/Hero-bg.png');
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.web-title{
+    font-size: 34px;
+    font-weight: 800;
+}
 .btn-primary{
     background-color: #4E47FF;
     border: none;
-    border-radius: 10px;
     padding: 12px 36px;
+    border-radius: 10px;
+    
+    
+}
+.inter-normal a{
+    text-decoration: none;
     color: white;
 }
-.secondary-bg{
-    background-image: url('../Assets/Hero-bg.png');
-    background-repeat: no-repeat;
- 
+main{
+    max-width: 1140px;
+    margin: 0 auto;
 }
-.nav-design{
+.web-top{
     display: flex;
     justify-content: space-between;
-    margin: 50px 150px;
     align-items: center;
-
-}
-
-.text-center{
-    text-align: center;
-}
-
-.logo-design{
-    font-size: 34px;
-    position: top ;
-    font-weight: 800;
-}
-.banner-title{
-    font-size: 60px;
-    text-align: center;
-    max-width: 900px; 
-    margin: 200px auto 37px auto;
-}
-.productive-title{
-    font-size: 34px;
-    font-weight: 600;
-    color: #252432;
-    
-
-}
-.number{
-    font-size: 80px;
-    font-weight: 600;
-    color: #8987A1;
-}
-.number-subtitle{
-    color: #8987A1;
-    font-size: 20px;
-    
-}
-.org-data{
-    display: flex;
-    gap: 160px;
-    
-}
-.productive-user{
-    justify-content: center;
-}
-.users{
-    align-items: center;
-}
-.get-started-title{
-    font-size: 50px;
-    color: black;
-}
-.get-started-subtitle{
-    color: #B3B3B3;
-}
-.started{
-    margin: 150px;
-}
-.title-style{
-    font-size: 95px;
-    font-weight: 600;
-}
-.form{
-    display: block;
-    
-}
-.connection-message-part{
-    display: flex;
-    justify-content: space-between;
-}
-.message{
+    margin-right: 150px;
     margin-left: 150px;
 }
-.footer-title{
-    font-size: 100px;
+.mid-title{
+    font-size: 65px;
+    margin-bottom: 35px;
+
+}
+.banner{
+    text-align: center;
+    margin-left: 268px;
+    margin-right: 268px;
+    margin-top: 150px;
+}
+.action-sub-title{
+    font-size: 42px;
+    font-weight: 600;
     margin-bottom: 0px;
 
 }
-.footer-sub-title{
-    margin-top: 10px;
+.action-title-description{
+    font-size: 25px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.action-img{
+    width: 403px;
+    height: 328px;
+    border-radius: 50px;
+    margin-top: 115px;
+}
+.action-items{
+    display: flex;
+    gap: 120px;
+
+}
+.text-center{
+    text-align: center;
+}
+.action-title{
+    margin-top: 150px;
+}
+.productive-user-bg{
+    background-color: #dbdbe1;
+    border-radius: 20px;
+}
+.productive-user-title{
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.productive-user{
+    text-align: center;
+    color: #252432;
+    padding: 50px 142px 0px 142px;
+    margin-top: 115px;
+}
+.active-user-number{
+    font-size: 80px;
+    font-weight: bold;
+    color: #aaa9bb;
+    margin-bottom: 0px;
+}
+.active-user-subtitle{
+    margin-top: 0px;
     color: #8987A1;
-    font-size: 30px;
+    text-align: center;
+}
+/* .active-users{
+    text-align: center;
+} */
+.productive-data{
+    display: flex;
+    gap: 160px;
+    padding: 0px 200px 30px 200px;
+    /* margin-bottom: 50px; */
+}
+.productive-user-title{
+    padding-bottom: 0px;
+}
+.ready-to-focus-bg{
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 140px;
+}
+.ready-focus-title{
+    color: black;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 0px;
+    padding-top: 70px;
+
+}
+.read-focus-img{
+    height: 365px;
+    width: 840px;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.ready-to-focus{
+    text-align: center;
+}
+.ready-focus-subtitle{
+    margin-bottom: 15px;
+    color: #B3B3B3;
+}
+body{
+    background-color: rgb(235, 245, 245);
+}
+.form-title-msg{
+    font-weight: bold;
+    color: black;
+    font-size: 90px;
+}
+.contact-form{
+    display: flex;
+    justify-content: space-between;
+}
+.msg-form input, label{
+    display: block;
+}
+.msg-form label{
+    font-size: 18px;
+    color: black;
+    font-weight: 400;
 }
