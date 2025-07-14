@@ -156,6 +156,7 @@ body{
     font-weight: bold;
     color: black;
     font-size: 90px;
+    padding-top: 200px;
 }
 .contact-form{
     display: flex;
@@ -168,4 +169,22 @@ body{
     font-size: 18px;
     color: black;
     font-weight: 400;
+    margin-bottom: 10px;
+}
+.msg-form input, textarea{
+    padding: 20px 271px 20px 32px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 6px 50px 0 rgb(214, 208, 208);
+    height: 70px;
+    width: 200px;
+} 
+.msg-form{
+    padding: 130px 0px 0px 0px ;
+}
+.msg-form textarea{
+    padding: 20px 257px 85px 32px;
+    border: none;
+    border-radius: 10px;
 }
